@@ -4,7 +4,7 @@ import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import profilePic from '../assets/pfp.jpg'; // Ensure the path to the image is correct
 import '/Users/adrianlanier/portfolio/src/styles/Profile.css' // Import the CSS file
-import resume from '/Users/adrianlanier/portfolio/src/assets/Adrian Lanier Resume.pdf';
+import resume from '../assets/Adrian Lanier Resume.pdf';
 const Profile = () => {
   return (
     <div className="profile-section">

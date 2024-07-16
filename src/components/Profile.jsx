@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'; 
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import profilePic from '../assets/pfp.jpg'; // Ensure the path to the image is correct
-import '/Users/adrianlanier/portfolio/src/styles/Profile.css' // Import the CSS file
+import '../styles/Profile.css' // Import the CSS file
 import resume from '../assets/Adrian Lanier Resume.pdf';
 const Profile = () => {
   return (

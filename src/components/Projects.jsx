@@ -1,8 +1,9 @@
 // src/components/Projects.jsx
 import React from 'react';
 import '../styles/Projects.css';
-import { faVideo } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faVideo } from '@fortawesome/free-solid-svg-icons';
+
 
 
 const Projects = () => (

@@ -1,10 +1,6 @@
 // src/components/Projects.jsx
 import React from 'react';
 import '../styles/Projects.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faVideo } from '@fortawesome/free-solid-svg-icons';
-
-
 
 const Projects = () => (
   <div className="projects-content">
@@ -21,7 +17,7 @@ const Projects = () => (
     </div>
 
     <div className="project-entry">
-      <h3 className="project-header">CS Experience Labs Coworking Webpage:        <a href="https://www.youtube.com/watch?v=zPVB2ZGEAJQ&ab_channel=TraceGlasby" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faVideo} size=".5x" style={{ color: 'gray' }} /></a></h3>
+      <h3 className="project-header">CS Experience Labs Coworking Webpage:        <a href="https://www.youtube.com/watch?v=zPVB2ZGEAJQ&ab_channel=TraceGlasby" target="_blank" rel="noopener noreferrer">🎥</a></h3>
       <p>
         Worked with a small team of programmers to enhance UNC’s <a href="https://csxl-team-c6-comp590-24s.apps.unc.edu/about" target="_blank" rel="noopener noreferrer">CSXL Webpage</a> with a robust member management system that enables organizations to list members by term, manage requests, and offer open membership. We facilitated the ability to create exclusive events and improved the overall website functionality for student organizers to better foster community engagement.
       </p>

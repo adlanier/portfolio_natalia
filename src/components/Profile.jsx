@@ -27,8 +27,10 @@ const Profile = () => {
           <p> <a href="https://www.instagram.com/adrianllanier/" target="_blank" rel="noopener noreferrer" className="icon">
             <FaInstagram icon={FaInstagram} style={{ color: '#ff8900' }}/>
           </a></p>
-          <p><a href={resume} download="Adrian Lanier Resume.pdf" className="resume-download">My Resume</a></p>
-        </div>
+      </div>
+      
+      <p><a href={resume} download="Adrian Lanier Resume.pdf" className="resume-download">My Resume</a></p>
+
       </div>
     </div>
   );

@@ -1,7 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'; 
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FaEnvelope, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'; // FaUser and FaGithub from Font Awesome via react-icons
 import profilePic from '../assets/pfp.jpg'; // Ensure the path to the image is correct
 import '../styles/Profile.css' // Import the CSS file
 import resume from '../assets/Adrian Lanier Resume.pdf';
@@ -19,15 +17,15 @@ const Profile = () => {
      
       <div className="contact-section">
         <div className="contact-top">
-          <p><a href="mailto:adrianlanier33@gmail.com"><FontAwesomeIcon icon={faEnvelope} size="2x" style={{ color: 'gray' }} /></a> </p>
-          <p><a href="https://www.linkedin.com/in/adrianlanier" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faLinkedin} size="2x" style={{ color: '#0077B5' }} />
+          <p><a href="mailto:adrianlanier33@gmail.com" className="icon"><FaEnvelope icon={FaEnvelope} style={{ color: 'gray' }} /></a> </p>
+          <p><a href="https://www.linkedin.com/in/adrianlanier" target="_blank" rel="noopener noreferrer" className="icon">
+            <FaLinkedin icon={FaLinkedin} style={{ color: '#0077B5' }} />
           </a> </p>
-          <p> <a href="https://github.com/adlanier" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: '#24292e' }}/>
+          <p> <a href="https://github.com/adlanier" target="_blank" rel="noopener noreferrer" className="icon">
+            <FaGithub icon={FaGithub} style={{ color: '#24292e' }}/>
           </a></p>
-          <p> <a href="https://www.instagram.com/adrianllanier/" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faInstagram} size="2x" style={{ color: '#ff8900' }}/>
+          <p> <a href="https://www.instagram.com/adrianllanier/" target="_blank" rel="noopener noreferrer" className="icon">
+            <FaInstagram icon={FaInstagram} style={{ color: '#ff8900' }}/>
           </a></p>
           <p><a href={resume} download="Adrian Lanier Resume.pdf" className="resume-download">My Resume</a></p>
         </div>

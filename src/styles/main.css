@@ -1,0 +1,95 @@
+/* src/styles/main.css */
+
+/* Reset some basic styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  min-height: 100%;
+  overflow: hidden; /* Prevents double scrollbar */
+}
+
+/* Header styles */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Span the whole top */
+  background-image: url('../assets/unc-argyle-white2.jpg'); /* UNC argyle pattern */
+  background-size: contain;
+  /* background-color: #4B9CD3; Carolina blue */
+  color: white;
+  padding: 10px;
+  height: 20px; /* Thinner header */
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Navigation styles */
+.nav {
+  display: flex;
+  margin-right: 20px; /* Adjust margin to fit the design */
+}
+
+.nav button {
+  background-color: #4B9CD3;
+  color: white;
+  border: none;
+  padding: 5px 10px; /* Smaller padding */
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.nav button:hover {
+  background-color: #e0e0e0;
+}
+
+
+/* Content styles */
+.content {
+  flex: 1;
+  padding-left: 26%; /* Account for the width of the profile section */
+  padding-top: 60px; /* Height of the header */
+  padding-bottom: 60px; /* Height of the footer */
+  text-align: center;
+}
+
+.home, .projects {
+  padding: 20px;
+}
+
+
+/* Container styles */
+#root {
+  display: flex;
+  flex-direction: row; /* Change to row to place profile and content side by side */
+  height: 100%;
+  margin-top: 40px; /* Height of the header */
+  overflow: hidden; /* Prevent parent overflow */
+}
+
+.content {
+  position: fixed;
+  top: 40px; /* Below the header */
+  left: 25%; /* Start after the profile */
+  right: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  padding: 20px;
+  text-align: left;
+}
+
+/* Style for regular links */
+a {
+  color: black; /* Always black */
+  text-decoration: underline; /* Always underlined */
+  font-weight: normal; /* Normal weight by default */
+}
+
+/* Style for hover state */
+a:hover {
+  font-weight: bold; /* Bold on hover */
+}

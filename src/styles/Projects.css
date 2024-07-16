@@ -1,0 +1,25 @@
+/* src/styles/Projects.css */
+.projects-section {
+    padding: 20px;
+    color: #333;
+    margin: 0 auto;
+    max-width: 800px; /* Center content and limit width */
+    text-align: center; /* Ensure proper text alignment */
+  }
+  
+  /* src/styles/Projects.css */
+.projects-content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto; /* Center the content horizontally */
+  }
+  
+  .project-entry {
+    margin-bottom: 40px; /* Add space between project entries */
+    right: -100px;
+  }
+  
+  .project-header {
+    margin-bottom: 10px;
+  }
+  

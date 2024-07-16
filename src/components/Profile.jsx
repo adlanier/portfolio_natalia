@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'; // FaUser and FaGithub from Font Awesome via react-icons
+import { FaEnvelope, FaGithub, FaLinkedin, FaInstagram } from '../../node_modules/react-icons/fa'; // FaUser and FaGithub from Font Awesome via react-icons
 import profilePic from '../assets/pfp.jpg'; // Ensure the path to the image is correct
 import '../styles/Profile.css' // Import the CSS file
 import resume from '../assets/Adrian Lanier Resume.pdf';

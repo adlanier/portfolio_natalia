@@ -101,6 +101,11 @@
     overflow-y: auto;
   }
 
+  .profile-pic {
+    width: 85%;
+    border-radius: 50%;
+  }
+
   .icon {
     font-size: 20px; 
   }
@@ -133,7 +138,7 @@
     }
   
     .icon {
-      font-size: 18px; 
+      font-size: 15px; 
     }
     .resume-download {
       font-size: 0.8em; 

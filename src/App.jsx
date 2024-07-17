@@ -31,10 +31,10 @@ const App = () => {
     <div>
       <header className="header">
         <nav className="nav">
-          <button onPointerUp={() => setPage('home')}>Home</button>
-          <button onPointerUp={() => setPage('projects')}>Projects</button>
-          <button onPointerUp={() => setPage('educ')}>Education</button>
-          <button onPointerUp={() => setPage('exp')}>Experience</button>
+          <button onPointerDown={() => setPage('home')}>Home</button>
+          <button onPointerDown={() => setPage('projects')}>Projects</button>
+          <button onPointerDown={() => setPage('educ')}>Education</button>
+          <button onPointerDown={() => setPage('exp')}>Experience</button>
         </nav>
       </header>
       <Profile />

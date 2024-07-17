@@ -4,7 +4,7 @@ import React from 'react';
 const Experience = () => (
   <div>
     <h2>Experience 🛠️💡</h2>
-    <h3>Undergraduate Teaching Assisstant</h3>
+    <h3>Undergraduate Teaching Assistant</h3>
       <p><i>UNC Department of Computer Science</i></p>
       <p>August 2023 - Present</p>
       <p>

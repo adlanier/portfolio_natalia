@@ -101,11 +101,6 @@
     overflow-y: auto;
   }
 
-  .profile-pic {
-    width: 90%;
-    border-radius: 50%;
-  }
-
   .icon {
     font-size: 20px; 
   }
@@ -146,11 +141,20 @@
   
     .contact-section {
       position: relative;
-      bottom: 10px; /* Space from the bottom */
-      width: 100%; /* Make sure it spans the full width */
+      bottom: 15px; /* Space from the bottom */
+      width: 75%; /* Make sure it spans the full width */
       text-align: center;
+      left: 6px;
+    }
+
+    .profile-pic {
+      width: 55%; /* Adjust width as needed */
+      height: auto; /* Maintain aspect ratio */
+      transform: scale(1.5);
+      margin-bottom: 10px;
     }
     
+  
 }
  
 

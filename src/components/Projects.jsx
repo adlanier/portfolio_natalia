@@ -6,7 +6,7 @@ const Projects = () => (
   <div>
     <h2>My Projects 💻📊</h2>
 
-    <div className="project-entry">
+    {/* <div className="project-entry">
 <h3 className="project-header">(WIP) rec.</h3>
 <p>
 rec. is a social media platform that allows you to keep track of recommendations (music, movies, shows, books,...) that you make to your friends. Friends are able to rate recommendations they receive as well as mark them as seen/read/heard.   
@@ -15,7 +15,7 @@ rec. is a social media platform that allows you to keep track of recommendations
 <p>
   Built with React Native, MongoDB, Firebase Authentication, Redux, Axios, AWS ...
 </p>
-</div>
+</div> */}
 
 
     <div className="project-entry">

@@ -107,6 +107,13 @@
   .resume-download {
     font-size: 0.8em; 
   }
+
+  .contact-section {
+    position: relative;
+    bottom: 10px; /* Space from the bottom */
+    width: 100%; /* Make sure it spans the full width */
+    text-align: center;
+  }
 }
 
 

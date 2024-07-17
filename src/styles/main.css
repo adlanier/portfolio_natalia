@@ -44,17 +44,7 @@ body, html {
 }
 
 .nav button:hover {
-  background-color: #e0e0e0;
-}
-
-/* Disable hover effects when .no-hover class is present */
-.no-hover .nav button:hover {
-  background-color: #4B9CD3;
-  color: white;
-  border: none;
-  padding: 5px 10px; /* Smaller padding */
-  margin: 0 5px;
-  cursor: pointer;
+  background-color: #1d7cbb;
 }
 
 /* Content styles */

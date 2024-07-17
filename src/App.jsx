@@ -1,5 +1,5 @@
 // src/App.jsx
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Home from './components/Home';
 import Projects from './components/Projects';
 import Profile from './components/Profile';
@@ -10,23 +10,6 @@ import './styles/main.css';
 const App = () => {
   const [page, setPage] = useState('home'); // State to keep track of the current page
 
-  useEffect(() => {
-    const handleTouchStart = () => {
-      document.body.classList.add('no-hover');
-    };
-
-    const handleMouseMove = () => {
-      document.body.classList.remove('no-hover');
-    };
-
-    window.addEventListener('touchstart', handleTouchStart);
-    window.addEventListener('mousemove', handleMouseMove);
-
-    return () => {
-      window.removeEventListener('touchstart', handleTouchStart);
-      window.removeEventListener('mousemove', handleMouseMove);
-    };
-  }, []);
 
   // Function to render the appropriate page component
   const renderPage = () => {

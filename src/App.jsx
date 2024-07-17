@@ -1,5 +1,5 @@
 // src/App.jsx
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Home from './components/Home';
 import Projects from './components/Projects';
 import Profile from './components/Profile';
@@ -9,6 +9,24 @@ import './styles/main.css';
 
 const App = () => {
   const [page, setPage] = useState('home'); // State to keep track of the current page
+
+  useEffect(() => {
+    const handleTouchStart = () => {
+      document.body.classList.add('no-hover');
+    };
+
+    const handleMouseMove = () => {
+      document.body.classList.remove('no-hover');
+    };
+
+    window.addEventListener('touchstart', handleTouchStart);
+    window.addEventListener('mousemove', handleMouseMove);
+
+    return () => {
+      window.removeEventListener('touchstart', handleTouchStart);
+      window.removeEventListener('mousemove', handleMouseMove);
+    };
+  }, []);
 
   // Function to render the appropriate page component
   const renderPage = () => {
@@ -30,10 +48,10 @@ const App = () => {
     <div>
       <header className="header">
         <nav className="nav">
-          <button onClick={() => setPage('home')}>Home</button>
-          <button onClick={() => setPage('projects')}>Projects</button>
-          <button onClick={() => setPage('educ')}>Education</button>
-          <button onClick={() => setPage('exp')}>Experience</button>
+          <button onPointerUp={() => setPage('home')}>Home</button>
+          <button onPointerUp={() => setPage('projects')}>Projects</button>
+          <button onPointerUp={() => setPage('educ')}>Education</button>
+          <button onPointerUp={() => setPage('exp')}>Experience</button>
         </nav>
       </header>
       <Profile />

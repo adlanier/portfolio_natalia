@@ -5,13 +5,13 @@
     top: 40px; /* Start below the header */
     bottom: 0px; /* Adjust this based on footer height */
     left: 0;
-    width: 23%; /* Occupies 1/4 of the screen width */
+    width: 23%; 
     background-color: #f0f0f0; /* Optional background */
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    border-right: 1px solid #ccc; /* Optional border */
+    transition: width 0.3s ease-in-out;
     z-index: 900;
     overflow-y: auto;
   }
@@ -83,21 +83,31 @@
 }
 
   /* Responsive styles */
-@media (max-width: 850px) {
+ @media (max-width: 850px) {
+
+  .profile-section {
+    position: fixed;
+    top: 100px; 
+    bottom: 60px; 
+    left: 0;
+    width: 22%; 
+    background-color: #f0f0f0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+   
+    z-index: 900;
+    overflow-y: auto;
+  }
 
   .icon {
-    font-size: 20px; /* Smaller icon size for small screens */
+    font-size: 20px; 
   }
   .resume-download {
-    font-size: 0.8em; /* Smaller font size for resume link on small screens */
+    font-size: 0.8em; 
   }
 }
 
-@media (max-width: 400px) {
-  .icon {
-    font-size: 15px; /* Even smaller icon size for extra small screens */
-  }
-  .resume-download {
-    font-size: 0.7em; /* Smaller font size for resume link on small screens */
-  }
-}
+
+  

@@ -47,6 +47,15 @@ body, html {
   background-color: #e0e0e0;
 }
 
+/* Disable hover effects when .no-hover class is present */
+.no-hover .nav button:hover {
+  background-color: #4B9CD3;
+  color: white;
+  border: none;
+  padding: 5px 10px; /* Smaller padding */
+  margin: 0 5px;
+  cursor: pointer;
+}
 
 /* Content styles */
 .content {
@@ -93,3 +102,28 @@ a {
 a:hover {
   font-weight: bold; /* Bold on hover */
 }
+  
+  .profile-background {
+    position: fixed;
+    top: 40px; /* Start below the header */
+    bottom: 0; /* Adjust this based on footer height */
+    left: 0;
+    width: 24%; /* Occupies 1/4 of the screen width */
+    background-color: #f0f0f0; /* Match the profile component's background */
+    border-right: 1px solid #ccc; /* Match the profile component's border */
+    z-index: 800; /* Behind the profile component */
+    transition: width 0.1s ease-in-out; /* Smooth transition for width */
+
+  
+}
+
+@media (max-width: 850px) {
+  .profile-background {
+    position: fixed;
+    top: 40px; 
+    bottom: 0; 
+    left: 0;
+    width: 26%; 
+    background-color: #f0f0f0; 
+    z-index: 800; }
+  }

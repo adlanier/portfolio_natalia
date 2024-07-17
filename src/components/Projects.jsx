@@ -3,7 +3,7 @@ import React from 'react';
 import '../styles/Projects.css';
 
 const Projects = () => (
-  <div className="projects-content">
+  <div>
     <h2>My Projects 💻📊</h2>
 
     <div className="project-entry">

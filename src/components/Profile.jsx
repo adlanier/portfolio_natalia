@@ -5,6 +5,7 @@ import '../styles/Profile.css' // Import the CSS file
 import resume from '../assets/Adrian Lanier Resume.pdf';
 const Profile = () => {
   return (
+    <div className="profile-background">
     <div className="profile-section">
       <img src={profilePic} alt="Profile" className="profile-pic" />
       <h1 className="profile-name" style={{ fontWeight: "bold"}}>Adrian Lanier</h1>
@@ -32,6 +33,7 @@ const Profile = () => {
       <p><a href={resume} download="Adrian Lanier Resume.pdf" className="resume-download">My Resume</a></p>
 
       </div>
+    </div>
     </div>
   );
 };

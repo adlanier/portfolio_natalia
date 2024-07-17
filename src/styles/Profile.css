@@ -153,6 +153,15 @@
       transform: scale(1.5);
       margin-bottom: 10px;
     }
+
+    .resume-download {
+      position: absolute;
+      color: black; /* Always black */
+      text-decoration: underline; /* Always underlined */
+      font-weight: normal; /* Normal weight by default */
+      right: 14px;
+      
+    }
     
   
 }

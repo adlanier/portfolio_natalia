@@ -114,7 +114,40 @@
     width: 100%; /* Make sure it spans the full width */
     text-align: center;
   }
+ }
+  @media (max-width: 639px) {
+    .profile-section {
+      position: fixed;
+      top: 100px; 
+      bottom: 60px; 
+      left: 0;
+      width: 20%; 
+      background-color: #f0f0f0; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+     
+      z-index: 900;
+      overflow-y: auto;
+    }
+  
+    .icon {
+      font-size: 20px; 
+    }
+    .resume-download {
+      font-size: 0.8em; 
+    }
+  
+    .contact-section {
+      position: relative;
+      bottom: 10px; /* Space from the bottom */
+      width: 100%; /* Make sure it spans the full width */
+      text-align: center;
+    }
+    
 }
+ 
 
 
   

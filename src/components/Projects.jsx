@@ -17,6 +17,15 @@ rec. is a social media platform that allows you to keep track of recommendations
 </p>
 </div> */}
 
+ <div className="project-entry">
+      <h3 className="project-header">Statify Mobile: <a href="https://www.youtube.com/watch?v=JC9rCsiIEI0" target="_blank" rel="noopener noreferrer">🎥</a></h3> 
+      <p>
+        <a href="https://github.com/adlanier/statifyMobile" target="_blank" rel="noopener noreferrer">Statify Mobile</a> is an interactive mobile application that challenges users to guess whether the monthly listeners of a randomly selected Spotify artist are higher or lower than another randomly selected Spotify artist.
+      </p>
+      <p>
+      Built with React Native, Expo, Axios, Spotify API, Flask, Beautiful Soup. 
+      </p>
+    </div>
 
     <div className="project-entry">
       <h3 className="project-header">Statify:</h3>
@@ -24,7 +33,7 @@ rec. is a social media platform that allows you to keep track of recommendations
         <a href="https://www.statify.lol" target="_blank" rel="noopener noreferrer">Statify</a> is an interactive web application that challenges users to guess whether the amount of monthly listeners of a randomly selected Spotify artist is higher or lower than another randomly selected Spotify artist. 
       </p>
       <p>
-      Built with Beautiful Soup, React, Flask, Axios, Spotify API, JavaScript, HTML, CSS.
+      Built with React, Flask, Axios, Spotify API, Beautiful Soup.
       </p>
     </div>
 

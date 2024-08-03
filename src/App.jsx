@@ -54,6 +54,7 @@ import Projects from './components/Projects';
 import Profile from './components/Profile';
 import Education from './components/Education';
 import Experience from './components/Experience';
+import More from './components/More';
 import './styles/main.css';
 
 const App = () => {
@@ -65,6 +66,7 @@ const App = () => {
           <a href="#projects" className="nav-button">Projects</a>
           <a href="#education" className="nav-button">Education</a>
           <a href="#experience" className="nav-button">Experience</a>
+          <a href="#more" className="nav-button">More...</a>
         </nav>
       </header>
       <Profile />
@@ -80,6 +82,9 @@ const App = () => {
         </section>
         <section id="experience">
           <Experience />
+        </section>
+        <section id="more">
+          <More />
         </section>
       </div>
     </div>

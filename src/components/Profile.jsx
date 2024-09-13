@@ -1,8 +1,8 @@
-import React from 'react';
+
 import { FaEnvelope, FaGithub, FaLinkedin, FaInstagram, FaFile } from '../../node_modules/react-icons/fa'; // FaUser and FaGithub from Font Awesome via react-icons
 import profilePic from '../assets/pfp.jpg'; // Ensure the path to the image is correct
 import '../styles/Profile.css' // Import the CSS file
-import resume from '../assets/Adrian_Lanier.pdf';
+import resume from '../assets/Adrian-Lanier-Resume.pdf';
 const Profile = () => {
   return (
     <div className="profile-background">
@@ -18,7 +18,7 @@ const Profile = () => {
      
       <div className="contact-section">
         <div className="contact-top">
-        <p> <a href={resume} download="Adrian Lanier Resume.pdf" className="icon"><FaFile icon={FaFile} style={{ color: 'gray' }}/> </a></ p>
+        <p> <a href={resume} download="Adrian-Lanier-Resume.pdf" className="icon"><FaFile icon={FaFile} style={{ color: 'gray' }}/> </a></ p>
           <p><a href="mailto:adrianlanier33@gmail.com" className="icon"><FaEnvelope icon={FaEnvelope} style={{ color: 'gray' }} /></a> </p>
           <p><a href="https://www.linkedin.com/in/adrianlanier" target="_blank" rel="noopener noreferrer" className="icon">
             <FaLinkedin icon={FaLinkedin} style={{ color: '#0077B5' }} />

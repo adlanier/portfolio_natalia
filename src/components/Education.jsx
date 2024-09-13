@@ -11,7 +11,10 @@ const Education = () => (
     <p>GPA: 3.73</p>
     <h4>Relevant Coursework: </h4>
     <p class="coursework">
-      COMP 423: Foundations of Software Engineering - This course introduces students to the fundamentals of Software Engineering. Students gain experience with technical communication, team collaboration, design process, project management methodologies, development and production environment concerns, automation, code review, and so on, with an emphasis on today’s best practices and tools.
+      COMP 550: Foundations of Software Engineering - Formal specification and verification of programs. Techniques of algorithm analysis. Problem-solving paradigms. Survey of selected algorithms.
+    </p>
+    <p class="coursework">
+      COMP 421: Files and Databases - Placement of data on secondary storage. File organization. Database history, practice, major models, system structure and design.
     </p>
     <p class="coursework">
       COMP 301: Foundations of Programming - Students will learn how to reason about how their code is structured, identify whether a given structure is effective in a given context, and look at ways of organizing units of code that support larger programs. In a nutshell, the primary goal of the course is to equip students with tools and techniques that will help them not only in later courses in the major but also in their careers afterwards.
@@ -28,11 +31,14 @@ const Education = () => (
     <p class="coursework">
       COMP 110: Introduces students to programming and data science from a computational perspective. With an emphasis on modern applications in society, students gain experience with problem decomposition, algorithms for data analysis, abstraction design, and ethics in computing.
     </p>
-     <p class="coursework">
-      MATH 231: Calculus of Functions of One Variable I - Limits, derivatives, and integrals of functions of one variable.
+    <p class="coursework">
+      MATH 347: Linear Algebra for Applications - Algebra of matrices with applications: determinants, solution of linear systems by Gaussian elimination, Gram-Schmidt procedure, and eigenvalues.
     </p>
     <p class="coursework">
       MATH 232: Calculus of Functions of One Variable II - Calculus of the elementary transcendental functions, techniques of integration, indeterminate forms, Taylor's formula, infinite series.
+    </p>
+     <p class="coursework">
+      MATH 231: Calculus of Functions of One Variable I - Limits, derivatives, and integrals of functions of one variable.
     </p>
 
     <h3>DIS Copenhagen</h3>

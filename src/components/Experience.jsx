@@ -4,6 +4,20 @@ import React from 'react';
 const Experience = () => (
   <div>
     <h2>Experience 🛠️💡</h2>
+    <h3>Intern - Software Engineer</h3>
+    <p><i>Pearson</i></p>
+    <p>June 2025 - August 2025</p>
+    <p>
+    At Pearson, I collaborate with cross-functional teams in a fast-paced environment to implement 
+    new software features, gaining valuable exposure to the company’s innovative digital products and 
+    services. I contribute to live projects across both front-end and back-end stacks, working with 
+    technologies like React, Node.js, and Java, while prioritizing clean, maintainable, and reusable code. 
+    I help develop applications using a micro front-end and microservices architecture deployed on AWS, 
+    which gives me hands-on experience in cloud-based product development. I work with Git (Bitbucket) 
+    for version control and support continuous integration and deployment pipelines through Jenkins. 
+    I also demonstrate proficiency in Salesforce development and prompt engineering, contributing to 
+    Pearson’s CRM solutions and AI-driven initiatives.
+    </p>
     <h3>Undergraduate Teaching Assistant</h3>
       <p><i>UNC Department of Computer Science</i></p>
       <p>August 2023 - Present</p>

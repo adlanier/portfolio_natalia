@@ -2,7 +2,7 @@
 import { FaEnvelope, FaGithub, FaLinkedin, FaInstagram, FaFile } from '../../node_modules/react-icons/fa'; // FaUser and FaGithub from Font Awesome via react-icons
 import profilePic from '../assets/pfp.jpg'; // Ensure the path to the image is correct
 import '../styles/Profile.css' // Import the CSS file
-import resume from '../assets/updated.pdf';
+import resume from '../assets/Lanier_Adrian.pdf';
 const Profile = () => {
   return (
     <div className="profile-background">

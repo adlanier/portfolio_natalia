@@ -29,6 +29,12 @@ const Profile = () => {
           <p> <a href="https://www.instagram.com/adrianllanier/" target="_blank" rel="noopener noreferrer" className="icon">
             <FaInstagram icon={FaInstagram} style={{ color: '#ff8900' }}/>
           </a></p>
+          <p>
+  <a href="https://www.salesforce.com/trailblazer/adrianlanier" target="_blank" rel="noopener noreferrer" className="icon">
+    <img src="src/assets/trailhead-logo.png" alt="Trailhead" style={{ height: '28px', width: '28px' }} />
+  </a>
+</p>
+
           
       
       </div>

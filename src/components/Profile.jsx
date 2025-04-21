@@ -3,6 +3,7 @@ import { FaEnvelope, FaGithub, FaLinkedin, FaInstagram, FaFile } from '../../nod
 import profilePic from '../assets/pfp.jpg'; // Ensure the path to the image is correct
 import '../styles/Profile.css' // Import the CSS file
 import resume from '../assets/Lanier_Adrian.pdf';
+import trailheadLogo from '../assets/trailhead-logo.png';
 const Profile = () => {
   return (
     <div className="profile-background">
@@ -31,7 +32,7 @@ const Profile = () => {
           </a></p>
           <p>
   <a href="https://www.salesforce.com/trailblazer/adrianlanier" target="_blank" rel="noopener noreferrer" className="icon">
-    <img src="src/assets/trailhead-logo.png" alt="Trailhead" style={{ height: '28px', width: '28px' }} />
+    <img src={trailheadLogo} alt="Trailhead" style={{ height: '28px', width: '28px' }} />
   </a>
 </p>
 

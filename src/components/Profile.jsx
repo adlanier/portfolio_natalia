@@ -19,7 +19,7 @@ const Profile = () => {
      
       <div className="contact-section">
         <div className="contact-top">
-        <p> <a href={resume} download="Adrian-Lanier-Resume.pdf" className="icon"><FaFile icon={FaFile} style={{ color: 'gray' }}/> </a></ p>
+        <p> <a href={resume} download="Lanier_Adrian.pdf" className="icon"><FaFile icon={FaFile} style={{ color: 'gray' }}/> </a></ p>
           <p><a href="mailto:adrianlanier33@gmail.com" className="icon"><FaEnvelope icon={FaEnvelope} style={{ color: 'gray' }} /></a> </p>
           <p><a href="https://www.linkedin.com/in/adrianlanier" target="_blank" rel="noopener noreferrer" className="icon">
             <FaLinkedin icon={FaLinkedin} style={{ color: '#0077B5' }} />

@@ -1,40 +1,29 @@
 
-import { FaEnvelope, FaGithub, FaLinkedin, FaInstagram, FaFile } from '../../node_modules/react-icons/fa'; // FaUser and FaGithub from Font Awesome via react-icons
+import { FaEnvelope, FaLinkedin, FaFile } from 'react-icons/fa';
 import profilePic from '../assets/pfp.jpg'; // Ensure the path to the image is correct
 import '../styles/Profile.css' // Import the CSS file
-import resume from '../assets/Lanier_Adrian.pdf';
-import trailheadLogo from '../assets/trailhead-logo.png';
+import resume from '/Users/adrianlanier/portfolio_natalia/src/assets/Lanier_Natalia.pdf';
 const Profile = () => {
   return (
     <div className="profile-background">
     <div className="profile-section">
       <img src={profilePic} alt="Profile" className="profile-pic" />
-      <h1 className="profile-name" style={{ fontWeight: "bold"}}>Adrian Lanier</h1>
+      <h1 className="profile-name" style={{ fontWeight: "bold"}}>Natalia Lanier</h1>
       <p className="about-me">
-        Pursuing a B.S in Computer Science from the University of North Carolina - Chapel Hill
+      Clinical Specialist @ BIOTRONIK
       </p>
       <p className="about-me">
-        📍 Jensen Beach, FL 🔄 Chapel Hill, NC 
+        📍 Orlando, FL
       </p>
      
       <div className="contact-section">
         <div className="contact-top">
-        <p> <a href={resume} download="Lanier_Adrian.pdf" className="icon"><FaFile icon={FaFile} style={{ color: 'gray' }}/> </a></ p>
-          <p><a href="mailto:adrianlanier33@gmail.com" className="icon"><FaEnvelope icon={FaEnvelope} style={{ color: 'gray' }} /></a> </p>
-          <p><a href="https://www.linkedin.com/in/adrianlanier" target="_blank" rel="noopener noreferrer" className="icon">
+        <p> <a href={resume} download="Lanier_Natalia.pdf" className="icon"><FaFile icon={FaFile} style={{ color: 'gray' }}/> </a></ p>
+          <p><a href="mailto:laniernatalia36@gmail.com" className="icon"><FaEnvelope icon={FaEnvelope} style={{ color: 'gray' }} /></a> </p>
+          <p><a href="https://www.linkedin.com/in/natalialanier/" target="_blank" rel="noopener noreferrer" className="icon">
             <FaLinkedin icon={FaLinkedin} style={{ color: '#0077B5' }} />
           </a> </p>
-          <p> <a href="https://github.com/adlanier" target="_blank" rel="noopener noreferrer" className="icon">
-            <FaGithub icon={FaGithub} style={{ color: '#24292e' }}/>
-          </a></p>
-          <p> <a href="https://www.instagram.com/adrianllanier/" target="_blank" rel="noopener noreferrer" className="icon">
-            <FaInstagram icon={FaInstagram} style={{ color: '#ff8900' }}/>
-          </a></p>
-          <p>
-  <a href="https://www.salesforce.com/trailblazer/adrianlanier" target="_blank" rel="noopener noreferrer" className="icon">
-    <img src={trailheadLogo} alt="Trailhead" style={{ height: '28px', width: '28px' }} />
-  </a>
-</p>
+          
 
           
       

@@ -63,9 +63,9 @@ const App = () => {
       <header className="header">
         <nav className="nav">
           <a href="#home" className="nav-button">Home</a>
-          <a href="#projects" className="nav-button">Projects</a>
           <a href="#education" className="nav-button">Education</a>
           <a href="#experience" className="nav-button">Experience</a>
+          <a href="#projects" className="nav-button">Certs and Pubs</a>
           <a href="#more" className="nav-button">More...</a>
         </nav>
       </header>
@@ -74,14 +74,14 @@ const App = () => {
         <section id="home">
           <Home />
         </section>
-        <section id="projects">
-          <Projects />
-        </section>
         <section id="education">
           <Education />
         </section>
         <section id="experience">
           <Experience />
+        </section>
+        <section id="projects">
+          <Projects />
         </section>
         <section id="more">
           <More />

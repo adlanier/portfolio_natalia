@@ -3,19 +3,14 @@ import React from 'react';
 
 const Home = () => (
   <div>
-    <h2>Hey Y'all 👋🤠</h2>
-    <p>
-      My name is Adrian Lanier and I am an undergraduate student at the University of North Carolina at Chapel Hill pursuing a Bachelor of Science in Computer Science.
-    </p>
-    <p>
-      Before coming to Chapel Hill, I was a dedicated trumpet player performing and competing at the national level. During my time at UNC, I am able to utilize many of the skills I developed during this time to find success in my coursework and take on projects that will continue to facilitate my growth as a computer scientist. I aim to leverage what I learn in and out of school to make positive and impactful contributions to our society, culture, and environment.
-    </p>
-    <p>
-      I am proficient in Python, Java/JavaScript, Typescript and React with a solid background in full-stack web development and data analysis. Looking toward the future, I want to learn more about AI and ML applications and utilize them in my future projects and begin developing applications for iOS and Android using technologies such as React Native.
-    </p>
-    <p>
-      Apart from CS, I really enjoy training in Gracie Jiu-Jitsu, thrifting, collecting vinyls, traveling, lifting, and I have a strong appreciation for music and nature. I am a huge fan of Carolina basketball, Guayaki Yerba Mate, and trying new foods.
-    </p>
+    <h2>About Me 👋😁</h2>
+    <p>Natalia Lanier is a Clinical Specialist at BIOTRONIK Neuro, supporting patients in Central Florida. With a background in kinesiology and exercise science from the University of Central Florida, Natalia brings experience across clinical support, prosthetics and orthotics, fitness consulting, and exercise physiology research.</p>
+
+<p>Prior to joining BIOTRONIK, Natalia served as a Fitness Consultant at UFC Gym, where she provided personalized fitness recommendations, engaged with clients, and supported member satisfaction. She also worked as a Prosthetic Assistant at Prosthetic and Orthotic Associates, assisting with patient assessments, fabrication of prosthetics and orthotics, and patient gait training.</p>
+
+<p>Her research experience includes her role as a Research Assistant at UCF's EPIC Lab, where she facilitated exercise physiology testing, collected and organized clinical data, and supported protocol execution. Additionally, she contributed as a Marketing Intern with Johnson & Johnson's Velys Robotic Assisted Solutions team, coordinating projects and developing educational content.</p>
+
+<p>Natalia is a NASM Certified Personal Trainer, CPR and First Aid certified, and co-author of a publication in the European Journal of Applied Physiology. She is fluent in English and Spanish and brings skills in clinical support, patient care, data analysis, fitness programming, and healthcare marketing.</p>
   </div>
 );
 

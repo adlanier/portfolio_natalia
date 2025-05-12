@@ -5,11 +5,10 @@ import '../styles/Education.css';
 const Education = () => (
   <div>
     <h2>Education 🎓📚</h2>
-    <h3>University of North Carolina at Chapel Hill</h3>
-    <p><i>Bachelor of Science in Computer Science</i></p>
-    <p>August 2022 - May 2026</p>
-    <p>GPA: 3.7</p>
-    <h4>Relevant Coursework: </h4>
+    <h3>University of Central Florida</h3>
+    <p><i>Bachelor of Science in Kinesiology, Exercise Phisiology Track</i></p>
+    <p>August 2020 - May 2024</p>
+    {/* <h4>Relevant Coursework: </h4>
     <p class="coursework">
       Introduction to Robotics (COMP 581) - The objective of this course is to provide an introduction to robotics, with an emphasis on the computational and algorithmic aspects. The course focuses on algorithms that enable robots to effectively make use of sensory information from the environment and purposefully act upon it. Topics covered include the history of robotics, robot kinematics, actuation, sensing, configuration spaces, control, and motion planning. The course also discusses applications to personal assistance, autonomous vehicles, medical surgery, manufacturing, games, and other areas.
     </p>
@@ -51,7 +50,7 @@ const Education = () => (
     <p><i>Study Abroad</i></p>
     <p>May 2024 - June 2024</p>
     <h4>Course:</h4>
-    <p class="coursework">Computer Organization (COMP 311) - Introduction to computer organization and design. Students will be introduced to the conceptual design of a basic microprocessor, along with assembly programming. The course covers the fundamentals of computer hardware design, transistors and logic gates, progressing through basic combinational and sequential components, culminating in the conceptual design CPU.</p>
+    <p class="coursework">Computer Organization (COMP 311) - Introduction to computer organization and design. Students will be introduced to the conceptual design of a basic microprocessor, along with assembly programming. The course covers the fundamentals of computer hardware design, transistors and logic gates, progressing through basic combinational and sequential components, culminating in the conceptual design CPU.</p> */}
   </div>);
 
 export default Education;

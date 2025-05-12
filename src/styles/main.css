@@ -16,10 +16,10 @@ body, html {
   top: 0;
   left: 0;
   width: 100%; /* Span the whole top */
-  background-image: url('../assets/unc-argyle-white2.jpg'); /* UNC argyle pattern */
+  background-image: url('../assets/dark.png'); /* UNC argyle pattern */
   background-size: contain;
   /* background-color: #4B9CD3; Carolina blue */
-  color: white;
+  color: black;
   padding: 10px;
   height: 20px; /* Thinner header */
   z-index: 1000;
@@ -35,7 +35,7 @@ body, html {
 }
 
 .nav button {
-  background-color: #4B9CD3;
+  background-color: #ba9b37;
   color: white;
   border: none;
   padding: 5px 10px; /* Smaller padding */
@@ -44,7 +44,7 @@ body, html {
 }
 
 .nav button:hover {
-  background-color: #1d7cbb;
+  background-color: #ba9b37;
 }
 
 /* Content styles */
@@ -83,7 +83,7 @@ body, html {
 
 /* Anchor tags styled as buttons */
 .nav a.nav-button {
-  background-color: #4B9CD3;
+  background-color: #ba9b37;
   color: white;
   border: none;
   padding: 5px 10px; /* Smaller padding */
